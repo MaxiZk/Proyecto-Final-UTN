@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+ul li {
+    margin: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+img {
+    height: 200px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text div {
+    width: 30%;
+    text-align: center;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto form {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: rgb(0, 0, 0);
+    padding: 50px 30px;
+    border-radius: 40px;
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#message {
+
+    padding: 10px;
+    
+
+}
+.mensaje2{
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    right: 32%;
+    background-color: bisque;
+
+}

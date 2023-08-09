@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoFInalUTN</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lisu+Bosa:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Página de Inicio</a></li>
+            <li><a href="./recomendadas.html">Ir a recomendadas</a></li>
+            <li><a href="./noRecomiendo.html">Ir a no recomendadas</a></li>
+            <li><a href="./Estrenos.html">Estrenos</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="titulo">
+            <h1><u>Review de Series y Peliculas de Netflix</u></h1>
+            <img src="https://variety.com/wp-content/uploads/2020/05/netflix-logo.png" id="img">
+        </div>
+        <h2>¡Bienvenido a nuestra página dedicada a los amantes del entretenimiento en Netflix!</h2>
+        <div class="text">
+            <div>
+                <p>Aquí encontrarás un espacio creado especialmente para los fanáticos de las series y películas de
+                    Netflix.
+                    Nuestro
+                    objetivo es proporcionarte reseñas detalladas, imparciales y entretenidas sobre las últimas
+                    producciones que
+                    ofrece esta plataforma de streaming líder a nivel mundial.
+                    ¿Te preguntas si vale la pena invertir tiempo en esa nueva serie que ha capturado tu atención? ¿O
+                    quizás
+                    buscas
+                    una película que te mantenga pegado a la pantalla durante la noche? No te preocupes, estamos aquí
+                    para
+                    ayudarte
+                    a tomar decisiones informadas.</p>
+            </div>
+
+            <div class="mid">
+                <p>Nuestro equipo de expertos cinéfilos y seriéfilos se esfuerza por brindarte análisis en profundidad,
+                    evaluaciones
+                    de actuaciones, dirección, guiones y todo lo que necesitas saber para seleccionar tu próxima maratón
+                    en
+                    Netflix.
+                </p>
+                <a href="https://www.netflix.com/ar/login" target="_blank">Netflix</a>
+            </div>
+
+            <div>
+                <p>Además de las reseñas, también podrás encontrar recomendaciones temáticas, listas de las mejores
+                    producciones
+                    por
+                    género y noticias sobre las próximas series y películas que se estrenarán en la plataforma.</p>
+                <p>Te invitamos a explorar nuestro sitio y descubrir un mundo de emocionantes críticas que te ayudarán a
+                    sacar
+                    el
+                    máximo provecho de tu suscripción a Netflix. ¡Prepárate para sumergirte en el fascinante universo
+                    del
+                    entretenimiento en línea!</p>
+            </div>
+        </div>
+
+
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <div>
+                <form action="/enviar-mensaje" method="POST" id="form">
+                    <label for="nombre">Nombre:</label><br />
+                    <input type="text" id="nombre" name="nombre" /><br />
+                    <label for="email">Email:</label><br />
+                    <input type="email" id="email" name="email" /><br />
+                    <label for="mensaje">Mensaje:</label><br />
+                    <textarea id="mensaje" name="mensaje"></textarea><br />
+                    <input type="submit">
+                </form>
+            </div>
+            <p class="mensaje2" id="message"></p>
+        </div>
+    </main>
+    <footer>
+
+        <p>Todos los derechos reservados.</p>
+    </footer>
+    <script src="./form.js"></script>
+</body>
+
+</html>
