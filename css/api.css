@@ -3,13 +3,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: bisque;
+    background-color: aquamarine;
 }
 
-h1{
+.titulo{
+    font-size: 25px;
+}
+
+.listado{
+    margin-top: -2%;
     font-size: 20px;
-}
-
-ul{
-    font-size: 30px;
 }
