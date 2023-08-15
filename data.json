@@ -1,0 +1,28 @@
+
+  {
+    "movies": [
+      {
+        "title": "White Chicks",
+        "year": 2004,
+        "review": "Una película comica que te hara caer de tu asiento."
+      },
+      {
+        "title": "¿Y donde esta el fantasma?",
+        "year": 2013,
+        "review": "Una experiencia de terror mezclada con comedia"
+      }
+    ],
+    "series": [
+      {
+        "title": "Shooter",
+        "year": 2016,
+        "review": "Una serie adictiva con personajes convincentes y giros inesperados."
+      },
+      {
+        "title": "Marlon",
+        "year": 2017,
+        "review": "Una serie llena de comedia que te hara reir el primer episodio."
+      }
+    ]
+  }
+

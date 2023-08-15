@@ -17,6 +17,12 @@ a {
     color: aqua;
 }
 
+.subtitulo{
+    font-size: 30px;
+    text-align: left;
+    margin-right: 80%;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -57,7 +63,7 @@ img {
 }
 
 p{
-    font-size: 15px;
+    font-size: 20px;
     padding: flex;
     color:rgb(145, 255, 0);
     font-family: 'Bitter', serif;

@@ -17,6 +17,12 @@ h2{
     font-family: 'Caprasimo', cursive;
 }
 
+.subtitulo{
+    font-size: 30px;
+    text-align: left;
+    margin-right: 80%;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -34,18 +40,17 @@ main {
 .item {
     display: flex;
     padding: 10px;
-    border: 2px solid #ff0000;
+    border: 3px solid #ff0000;
     flex-direction: column;
     width: 90%;
     height: 600px;
     align-items: center;
     margin: 20px;
-
 }
 
 .item p {
     width: 90%;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Playfair Display', serif;
 }
 
