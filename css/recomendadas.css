@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: rgb(248, 223, 0);
 }
 
 a {
@@ -13,7 +13,8 @@ a {
 
 h2{
     font-size: 40px;
-    font-family: 'Bebas Neue', sans-serif;
+    color:rgb(255, 0, 0);
+    font-family: 'Caprasimo', cursive;
 }
 
 main {
@@ -33,7 +34,7 @@ main {
 .item {
     display: flex;
     padding: 10px;
-    border: 1px solid #000;
+    border: 2px solid #ff0000;
     flex-direction: column;
     width: 90%;
     height: 600px;
@@ -43,8 +44,9 @@ main {
 }
 
 .item p {
-    width: 50%;
-    font-size: 18px;
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
 }
 
 .listado div img {
