@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: rgb(255, 81, 0);
 }
 
 a {
@@ -9,6 +9,12 @@ a {
     border-radius: 15px;
     background-color: rgb(0, 0, 0);
     font-size: 15px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: 'Ruwudu', serif;
+    color: aqua;
 }
 
 main {
@@ -28,7 +34,7 @@ main {
 .item {
     display: flex;
     padding: 10px;
-    border: 1px solid #000;
+    border: 2px solid #000;
     flex-direction: column;
     width: 90%;
     height: 600px;
@@ -53,4 +59,6 @@ img {
 p{
     font-size: 15px;
     padding: flex;
+    color:rgb(145, 255, 0);
+    font-family: 'Bitter', serif;
 }

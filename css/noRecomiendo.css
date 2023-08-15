@@ -34,7 +34,7 @@ main {
 .item {
     display: flex;
     padding: 10px;
-    border: 2px solid #ff0000;
+    border: 2px solid #000000;
     flex-direction: column;
     width: 90%;
     height: 600px;
